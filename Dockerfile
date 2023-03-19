@@ -8,17 +8,19 @@ FROM ubuntu:20.04
 # Environment #
 ###############
 
-ENV NODE_VERSION=19.8.0
+ENV NODE_VERSION=18.15.0
 ENV NVM_DIR=/root/.nvm
 ENV PATH="/root/.nvm/versions/node/v${NODE_VERSION}/bin/:${PATH}"
+
+ENV DEBIAN_FRONTEND="noninteractive"
 
 ###########
 # General #
 ###########
 
 RUN apt-get update && \
-    apt-get install -y curl wget git virtualenv python3-pip python3.8-dev
-    # python3.8-distutils python3.8-venv
+    apt-get install -y curl wget git python3-pip python3.10
+    # python3.8-distutils python3.8-venv virtualenv
 
 ######################
 # Create Environment #
