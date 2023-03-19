@@ -13,7 +13,7 @@ clone repo.
 
     npx dalai serve
     
-"...the **go to** statement should be abolished..." [[1]](#1).
+Access the server on http://localhost:3000
 
 ## References
 <a id="1">[1]</a> 
