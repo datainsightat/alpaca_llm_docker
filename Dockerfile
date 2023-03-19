@@ -47,6 +47,8 @@ RUN npm --version
 # Clone Repo #
 ##############
 
+# Credit: https://github.com/cocktailpeanut/dalai
+
 RUN mkdir /opt/dalai
 RUN git clone https://github.com/cocktailpeanut/dalai.git /opt/dalai
 RUN cd /opt/dalai
