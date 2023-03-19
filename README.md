@@ -7,4 +7,4 @@ LLM inside a Docker Container
 clone repo.
 
     docker build -t llm .
-    docker container run -it -p 8080:80 --shm-size=0.45gb --name llm llm
+    docker container run -it -p 3000:3000 --shm-size=0.45gb --name llm llm
