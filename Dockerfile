@@ -45,11 +45,12 @@ RUN npm --version
 # Clone Repo #
 ##############
 
-RUN git clone https://github.com/cocktailpeanut/dalai.git
-RUN cd dalai
+RUN mkdir /opt/dalai
+RUN git clone https://github.com/cocktailpeanut/dalai.git /opt/dalai
+RUN cd /opt/dalai
 
 #####################
 # install Alpaca 7B #
 #####################
 
-RUN npx alpaca install 7b
+RUN npx dalai alpaca install 7B
