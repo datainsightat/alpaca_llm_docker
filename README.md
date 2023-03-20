@@ -17,7 +17,7 @@ Access the server on http://localhost:3000
 
 ## References
 <a id="1">[1]</a> 
-Stanford Alpaca: An Instruction-following LLaMA model (2023), Rohan Taori and Ishaan Gulrajani and Tianyi Zhang and Yann Dubois and Xuechen Li and Carlos Guestrin and Percy Liang and Tatsunori B. Hashimoto
+Stanford Alpaca: An Instruction-following LLaMA model (2023), Rohan Taori and Ishaan Gulrajani and Tianyi Zhang and Yann Dubois and Xuechen Li and Carlos Guestrin and Percy Liang and Tatsunori B. Hashimoto. https://crfm.stanford.edu/2023/03/13/alpaca.html
 
 <a id="2">[2]</a> 
 Dalai: Run LLaMA and Alpaca on your computer. https://github.com/cocktailpeanut/dalai
