@@ -61,5 +61,5 @@ RUN npm install
 # install Alpaca 7B #
 #####################
 
-#RUN npx dalai alpaca install 7B
+RUN npx dalai alpaca install 7B
 #RUN npx dalai serve
