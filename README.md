@@ -6,8 +6,8 @@ This docker image is base on the Stanford ['Alpaca'](https://crfm.stanford.edu/2
 
 clone repo.
 
-    docker build -t llm .
-    docker container run -it -p 3000:3000 --shm-size=0.45gb --name llm llm
+    docker build -t alpaca_7b_llm .
+    docker container run -it -p 3000:3000 --name alpaca_7b_llm alpaca_7b_llm
 
 ## Run
 
