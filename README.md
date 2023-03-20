@@ -1,6 +1,6 @@
 # Alpaca LLM inside a Docker Container
 
-This docker image is based on the Stanford ['Alpaca'](https://crfm.stanford.edu/2023/03/13/alpaca.html)[[1]](#1) model. It uses the ['dalai'](https://github.com/cocktailpeanut/dalai)[[2]](#2) tool download and Access the Alpaca model via an webserver.
+This docker image is based on the Stanford ['Alpaca'](https://crfm.stanford.edu/2023/03/13/alpaca.html)[[1]](#1) model, which is a fine-tuned version of Meta's ['LLaMa'](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)[[3]](#3) foundational large language model. It uses the ['dalai'](https://github.com/cocktailpeanut/dalai)[[2]](#2) tool download and Access the Alpaca model via an webserver.
 
 ## Install
 
@@ -21,3 +21,6 @@ Stanford Alpaca: An Instruction-following LLaMA model (2023), Rohan Taori and Is
 
 <a id="2">[2]</a> 
 Dalai: Run LLaMA and Alpaca on your computer. https://github.com/cocktailpeanut/dalai
+
+<a id="2">[3]</a> 
+LLaMa: Meta, https://ai.facebook.com/blog/large-language-model-llama-meta-ai/, https://github.com/facebookresearch/llama
